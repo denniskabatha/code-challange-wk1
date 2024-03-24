@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Speed detector</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Speed detector</h1>
+        <div class="flex-box">
+           <!--create a card-->
+            <div class="card">
+                <div class="input">
+                    <label for="speed">Speed 70kmh:</label>
+                    <!--minimum speed is 0km-->
+                    <input type="number" id="speed" min="0" placeholder="speed"/>
+                    <button onclick="checkSpeed()">check</button>
+                    <p id="demo"></p>
+                    <p id="demo1"></p>
+
+                </div>
+                <div id="result"></div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
     
 </body>
 </html>
