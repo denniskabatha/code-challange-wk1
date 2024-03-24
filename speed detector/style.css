@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(180, 123, 57);
+    width: 100%;
+    height: 100vh;
+}
+.container .card{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(119, 91, 54);
+    border-radius: 15px;
+    box-shadow: rgb(58, 49, 46) 2.4px 2.4px 3.2px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+
+
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+label{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+button{
+    border-radius: 6px;
+    border: none;
+    background-color: brown;
+    overflow: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 40%
+
+    
+}
+p{
+    outline: none;
+    border: none;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
