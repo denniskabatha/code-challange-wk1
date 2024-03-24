@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    position: relative;
+    top: 60%;
+    color: rgb(143, 62, 218);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: rgb(209, 192, 226);
+}
+container{
+    background-color: rgb(168, 118, 216);
+}
