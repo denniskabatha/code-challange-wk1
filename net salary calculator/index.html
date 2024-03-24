@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>salary calculator</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <div class="container">
+        <h1>Net Salary Calculator</h1>
+        <!--form for inputs-->
+        <form id="salaryform1"> 
+            <label for="basicSalary">Basic Salary (Ksh):</label><br>
+            <input type="number" id="basicSalary" name="basicSalary" required/><br/>
+            <lable for="benefits">Benefits (Ksh):</lable><br>
+            <input type="number" id="benefits" name="benefits" required/><br/>
+            <!--use submit-->
+            <input type="submit" value="Calculate Net Salary"/>
+        </form>
+        <div id="result" class="result"> </div>
+    </div>
+    <script src="script.js"></script>
     
 </body>
 </html>
