@@ -1,3 +1,4 @@
+//create an event listeners
 function calculate(){
     let i = document.getElementById('i').value;
     let s = document.getElementById('s').value;
