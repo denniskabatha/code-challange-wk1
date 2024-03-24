@@ -54,5 +54,9 @@ button:hover{
     background-color: rgb(243, 123, 25);
 }
 p{
-    
+    outline: none;
+    border: none;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    cursor: pointer;
 }
