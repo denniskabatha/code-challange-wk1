@@ -7,7 +7,7 @@ document.getElementById("salaryform1").addEventListener("submit", function(event
 function calculateSalary() {
     const basicSalary = parseFloat(document.getElementById("basicSalary").value);
     const benefits = parseFloat(document.getElementById("benefits").value);
-
+//Tax bands
     const taxBands = [
         { amount: 24000, rate: 0.1},
         { amount: 288000, rate: 0.25},
@@ -18,7 +18,7 @@ function calculateSalary() {
         { amount: Infinity, rate: 0.35}
     ];
 
-
+//NHIF rates
     const nhifRates = [
         { min:0, max: 5999, deduction: 150},
         { min:6000, max: 7999, deduction: 150},
